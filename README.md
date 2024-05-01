@@ -1,5 +1,5 @@
 # GalagaGuyGala
 WE BE PLAYING GALAGA
 
-Godot
-Galaga remake
+# The Plan
+* We will be making a Galaga remake in the Godot engine using Godot Script
