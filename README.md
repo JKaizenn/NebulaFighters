@@ -19,7 +19,7 @@ This is a team project to create a Galaga-style game using the Godot Engine. The
 1. **Clone the repository:**
 
    ```sh
-   git clone <repository-url>
+   git clone <repository-url> ('https://github.com/LordGumba/GalagaGuyGala')
    cd Project
    
 Open the project in Godot:
