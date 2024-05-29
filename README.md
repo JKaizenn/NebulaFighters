@@ -12,23 +12,7 @@ This is a team project to create a Galaga-style game using the Godot Engine. The
 
 ## Project Structure
 
-Project/
-│
-├── Assets/
-│ ├── Sprites/ # Place your sprite images here
-│ └── Sounds/ # Place your sound files here
-│
-├── Scenes/
-│ └── MainScene.tscn # Your main game scene
-│
-├── Scripts/
-│ ├── LevelManager.gd # Script for managing levels
-│ ├── ScoreManager.gd # Script for managing the score
-│ └── Scoreboard.gd # Script for managing the scoreboard
-│
-├── MainScene.gd # Main script for the game (optional if used as a central script)
-│
-└── project.godot # Godot project file
+
 
 ## Setup
 
