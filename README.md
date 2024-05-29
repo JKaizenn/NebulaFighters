@@ -37,14 +37,14 @@ Scoreboard: Manages and displays high scores.
 
 
 ## Authors:
-Author 1: GitHub Profile
-Author 2: GitHub Profile
-Author 3: GitHub Profile
-Author 4: GitHub Profile
+- Author 1: GitHub Profile
+- Author 2: GitHub Profile
+- Author 3: GitHub Profile
+- Author 4: GitHub Profile
 
 
 
-About Godot
+## About Godot
 Godot is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It is open-source and completely free, with a community that continually contributes to its development and improvement.
 
 Why Use Godot?
