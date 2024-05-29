@@ -36,7 +36,7 @@ ScoreManager: Manages the player's score and checks for level progression.
 Scoreboard: Manages and displays high scores.
 
 
-##Authors:
+## Authors:
 Author 1: GitHub Profile
 Author 2: GitHub Profile
 Author 3: GitHub Profile
