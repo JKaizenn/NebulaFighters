@@ -41,6 +41,7 @@ Scoreboard: Manages and displays high scores.
 - Author 2: GitHub Profile
 - Author 3: Jessen Forbush (JKaizenn) - https://github.com/JKaizenn
 - Author 4: GitHub Profile
+- Author 5: Logan Crossley (logancrossley) - https://github.com/logancrossley
 
 
 
