@@ -39,7 +39,7 @@ Scoreboard: Manages and displays high scores.
 ## Authors:
 - Author 1: GitHub Profile
 - Author 2: GitHub Profile
-- Author 3: GitHub Profile
+- Author 3: Jessen Forbush (JKaizenn) # https://github.com/JKaizenn
 - Author 4: GitHub Profile
 
 
