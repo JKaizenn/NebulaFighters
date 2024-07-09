@@ -11,5 +11,11 @@ config_version=5
 [application]
 
 config/name="Galaga"
+run/main_scene="res://Scenes/MainScene.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://Assets/icon.svg"
+
+[display]
+
+window/size/viewport_width=652
+window/size/viewport_height=1103
