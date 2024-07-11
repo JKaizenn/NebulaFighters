@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720556429
+::res://::1720718410
 README.md::TextFile::-1::1717427903::0::1::::<><>::
-::res://Assets/::1720556429
+::res://Assets/::1720718391
 Basic_Bug_No_Animation.png::CompressedTexture2D::894922919541844372::1720554789::1720555511::1::::<><>::
 Enemy_1.png::CompressedTexture2D::8510585334491011893::1720554730::1720554755::1::::<><>::
 Enemy_2.png::CompressedTexture2D::5008067018097762841::1720554721::1720554761::1::::<><>::
@@ -9,6 +9,7 @@ Enemy_3.png::CompressedTexture2D::4330662837944114495::1720554730::1720554767::1
 Enemy_4.png::CompressedTexture2D::2857320177045883329::1720554730::1720554772::1::::<><>::
 Enemy_5.png::CompressedTexture2D::9214115459879190422::1720555972::1720555985::1::::<><>::
 Enemy_6.png::CompressedTexture2D::974709922091551712::1720556421::1720556429::1::::<><>::
+Fast_Bug.png::CompressedTexture2D::771704381427809835::1720718385::1720718391::1::::<><>::
 icon.svg::CompressedTexture2D::4990848803110918009::1716219814::1717005625::1::::<><>::
 Space_Ship.png::CompressedTexture2D::5743484871769554275::1719270035::1720495540::1::::<><>::
 ::res://Scenes/::1720498172
@@ -17,3 +18,9 @@ MainScene.tscn::PackedScene::6640258206008976135::1720498172::0::1::::<><>::
 LevelManager.gd::GDScript::-1::1716219814::0::1::::<>Node<>::
 Scoreboard.gd::GDScript::-1::1716219814::0::1::::<>Node<>::
 ScoreManager.gd::GDScript::-1::1716219814::0::1::::<>Node<>::
+::res://Sounds/::1720722508
+Enemy_death_1.wav::AudioStreamWAV::7457668730228223458::1720718540::1720718541::1::::<><>::
+Enemy_death_2.wav::AudioStreamWAV::7576732649185305092::1720718646::1720718647::1::::<><>::
+Enemy_death_3.wav::AudioStreamWAV::2407810076387812043::1720722318::1720722318::1::::<><>::
+player_explotion.wav::AudioStreamWAV::2138687851340895966::1720722508::1720722508::1::::<><>::
+Shooting_sound.wav::AudioStreamWAV::1728256051298171925::1720718422::1720718422::1::::<><>::
