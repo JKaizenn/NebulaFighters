@@ -1,4 +1,4 @@
-# Galaga Game Project
+# Nebula Fighters
 
 This is a team project to create a Galaga-style game using the Godot Engine. The game includes various systems like levels, score management, a scoreboard, lives management, enemy movement patterns, and more. Each team member is responsible for different parts of the project.
 
