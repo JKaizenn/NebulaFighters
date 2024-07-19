@@ -10,4 +10,4 @@ func _process(delta: float) -> void:
 	# Check if the "ui_accept" action is pressed
 	if Input.is_action_just_pressed("ui_accept"):
 		# Change the scene to the main menu scene
-		get_tree().change_scene_to_file("res://Scenes/Main.tscn")
+		get_tree().change_scene_to_file("res://Scenes/main.tscn")

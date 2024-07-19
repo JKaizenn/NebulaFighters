@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://b8kpcv38c7wu6"]
 
-[ext_resource type="Script" path="res://Scripts/enemy.gd" id="1_jhcoq"]
+[ext_resource type="Script" path="res://Enemies/Scripts/enemy.gd" id="1_fj4k5"]
 [ext_resource type="Script" path="res://Scripts/Game Components/game_stats.gd" id="2_d2lfx"]
 [ext_resource type="Texture2D" uid="uid://h0rlvn12pkvn" path="res://Assets/Sprites/icon.png" id="3_fsheq"]
 [ext_resource type="Script" path="res://Scripts/Game Components/hitbox.gd" id="3_nnlfh"]
@@ -22,11 +22,11 @@ radius = 9.0
 size = Vector2(30.7043, 27)
 
 [node name="Enemy" type="Node2D"]
-script = ExtResource("1_jhcoq")
+script = ExtResource("1_fj4k5")
 
 [node name="GameStats" type="Node" parent="."]
 script = ExtResource("2_d2lfx")
-health = 3
+health = 2
 
 [node name="Hitbox" type="Area2D" parent="."]
 collision_layer = 0
