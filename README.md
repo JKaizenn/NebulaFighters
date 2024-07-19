@@ -56,6 +56,6 @@ Flexible: Support for both 2D and 3D game development, with a rich set of featur
 For more information, visit the Godot Engine website.
 
 # Sources:
-- HeartBeast. (n.d.). Godot Game Development Tutorial Series [YouTube playlist]. YouTube. https://www.youtube.com/watch?v=zUeLesdL7lE&list=PL9FzW-m48fn09w6j8NowI_pSBVcsb3V78
 - Godot Engine. (n.d.). Godot Engine documentation [Documentation]. Godot Engine. https://docs.godotengine.org/en/stable/index.html
+- HeartBeast. (n.d.). Godot Game Development Tutorial Series [YouTube playlist]. YouTube. https://www.youtube.com/watch?v=zUeLesdL7lE&list=PL9FzW-m48fn09w6j8NowI_pSBVcsb3V78
 
