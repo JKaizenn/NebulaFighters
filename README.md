@@ -38,7 +38,7 @@ Scoreboard: Manages and displays high scores.
 
 ## Authors:
 - Author 1: Jacob Roundy - [LordGumba](https://github.com/LordGumba)
-- Author 2: GitHub Profile [kevinMendoza](https://github.com/kerokero014)
+- Author 2: Kevin Mendoza - [kerokero014](https://github.com/kerokero014)
 - Author 3: Jessen Forbush - [JKaizenn](https://github.com/JKaizenn)
 - Author 4: Greg Elbl - [Steel Elysium](https://github.com/Steel-Elysium)
 - Author 5: Logan Crossley - [logancrossley](https://github.com/logancrossley)
