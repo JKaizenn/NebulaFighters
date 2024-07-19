@@ -1,10 +1,8 @@
-res://Scenes/main.tscn
-res://Enemies/Scenes/enemy.tscn
-res://Enemies/Scenes/yellow_bug.tscn
-res://Scenes/ship.tscn
 res://Scenes/menu.tscn
-res://Scripts/menu.gd
-res://Scenes/explosion_effect.tscn
-res://Scenes/game_over.tscn
+res://Scenes/main.tscn
+res://Scripts/main.gd
 res://Scenes/laser.tscn
-res://Enemies/Scripts/yellow_bug.gd
+res://Scripts/laser.gd
+res://Scenes/explosion_effect.tscn
+res://Scripts/Game Components/explosion_animation.gd
+res://Scenes/ship.tscn

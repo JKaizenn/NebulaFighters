@@ -5,6 +5,8 @@ class_name OneTimeAnimatedEffect
 # and connect to the animation_finished signal to free the node when the animation completes
 extends AnimatedSprite2D
 
+@onready var explotion_sound = $explotionSound
+
 # Called when the node enters the scene tree for the first time
 func _ready() -> void:
 	# Connect the animation_finished signal to the queue_free method to remove the node when the animation ends
@@ -12,3 +14,6 @@ func _ready() -> void:
 	
 	# Connect the animation_looped signal to the queue_free method to remove the node when the animation loops
 	animation_looped.connect(queue_free)
+	
+	if explotion_sound:
+			explotion_sound.play()

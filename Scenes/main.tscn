@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bxoxpjcroxdsa"]
+[gd_scene load_steps=9 format=3 uid="uid://bxoxpjcroxdsa"]
 
 [ext_resource type="Script" path="res://Scripts/main.gd" id="1_wm2p6"]
 [ext_resource type="Resource" uid="uid://xhr8bdpwtut5" path="res://Resources/game_stats.tres" id="2_cvw48"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bhtuklxnb6sld" path="res://Enemies/Scenes/yellow_bug.tscn" id="5_7rse2"]
 [ext_resource type="PackedScene" uid="uid://cec63gfiy7fkc" path="res://Scenes/ship.tscn" id="6_7w1ur"]
 [ext_resource type="LabelSettings" uid="uid://bmvykgntoobi3" path="res://Assets/Fonts/default_label_settings.tres" id="7_n6rmo"]
+[ext_resource type="AudioStream" uid="uid://dfqa1d2gvl73k" path="res://Assets/Sounds/Space_Sauce.wav" id="8_0fyni"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_wm2p6")
@@ -28,3 +29,7 @@ text = "Score:"
 label_settings = ExtResource("7_n6rmo")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="MainSong" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_0fyni")
+volume_db = -21.2

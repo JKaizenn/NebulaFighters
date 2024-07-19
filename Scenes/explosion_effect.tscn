@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://bc7ohfyf5a20w"]
+[gd_scene load_steps=9 format=3 uid="uid://bc7ohfyf5a20w"]
 
 [ext_resource type="Texture2D" uid="uid://cm1454kwsg880" path="res://Assets/Sprites/Explosion.png" id="1_gnoba"]
 [ext_resource type="Script" path="res://Scripts/Game Components/explosion_animation.gd" id="2_ouulp"]
+[ext_resource type="AudioStream" uid="uid://5p842f2rn2go" path="res://Assets/Sounds/player_explotion.wav" id="3_dncp3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tdood"]
 atlas = ExtResource("1_gnoba")
@@ -48,3 +49,7 @@ autoplay = "Explosion"
 frame = 3
 frame_progress = 1.0
 script = ExtResource("2_ouulp")
+
+[node name="explotionSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_dncp3")
+volume_db = -31.071
