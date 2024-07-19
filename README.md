@@ -57,5 +57,6 @@ For more information, visit the Godot Engine website.
 
 # Sources:
 - Godot Engine. (n.d.). Godot Engine documentation [Documentation]. Godot Engine. https://docs.godotengine.org/en/stable/index.html
+- Kenney. "Kenney Mini." FontStruct, 30 June 2011, https://fontstruct.com/fontstructions/show/504844/kenney-mini. 
 - HeartBeast. (n.d.). Godot Game Development Tutorial Series [YouTube playlist]. YouTube. https://www.youtube.com/watch?v=zUeLesdL7lE&list=PL9FzW-m48fn09w6j8NowI_pSBVcsb3V78
 
