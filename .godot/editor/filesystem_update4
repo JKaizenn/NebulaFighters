@@ -1,1 +1,11 @@
-res://Scenes/MainScene.tscn
+res://Scenes/main.tscn
+res://Enemies/Scripts/enemy_generator.gd
+res://Enemies/Scenes/red_enemy.tscn
+res://Enemies/Scenes/enemy_generator.tscn
+res://Scenes/menu.tscn
+res://Scenes/laser.tscn
+res://Scenes/explosion_effect.tscn
+res://Scenes/game_over.tscn
+res://Enemies/Scenes/enemy.tscn
+res://Enemies/Scenes/yellow_bug.tscn
+res://Scenes/ship.tscn
