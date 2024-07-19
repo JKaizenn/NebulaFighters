@@ -1,0 +1,31 @@
+extends Node2D
+
+# Export the game stats to manage the game score and related data
+@export var game_stats: GameStats
+
+# Reference to the ship node
+@onready var ship = $Ship
+
+# Reference to the score label node
+@onready var score_label = $ScoreLabel
+
+# Called when the node enters the scene tree for the first time
+func _ready() -> void:
+	# Initialize a random seed
+	randomize()
+	
+	# Update the score label with the current score
+	update_score_label(game_stats.score)
+	
+	# Connect the score_changed signal from game_stats to the update_score_label method
+	game_stats.score_changed.connect(update_score_label)
+	
+	# Connect the tree_exiting signal from the ship to an anonymous function
+	ship.tree_exiting.connect(func():
+		await get_tree().create_timer(1.0).timeout
+		get_tree().change_scene_to_file("res://Scenes/Game_Over.tscn")
+		)
+	
+# Function to update the score label with the new score
+func update_score_label(new_score: int) -> void:
+	score_label.text = "Score " + str(new_score)

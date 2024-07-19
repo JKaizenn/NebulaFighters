@@ -10,16 +10,23 @@ config_version=5
 
 [application]
 
-config/name="Galaga"
-run/main_scene="res://Scenes/MainScene.tscn"
+config/name="Nebula Fighters"
+run/main_scene="res://Scenes/menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://Assets/icon.svg"
 
 [display]
 
-window/size/viewport_width=652
-window/size/viewport_height=1103
+window/size/viewport_width=620
+window/size/viewport_height=480
+window/stretch/mode="canvas_items"
+
+[layer_names]
+
+2d_physics/layer_1="player_hurtbox"
+2d_physics/layer_2="enemy_hurtbox"
 
 [rendering]
 
-environment/defaults/default_clear_color=Color(0.0646965, 0.0646965, 0.0646965, 1)
+textures/stretch/mode="disabled"
+textures/size/window_height_override=0
+textures/size/window_width_override=0
